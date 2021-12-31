@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url("pexels-tejas-prajapati-586744.jpg");
+    background-size: cover;
+    font-family: sans-serif;
+    color: white;
+}
+
+.login-form {
+    background-color: rgba(14, 13, 13, 0.9);
+    width: 380px;
+    height: 350px;
+    margin: 0;
+    padding: 35px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    box-sizing: border-box;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    margin: 9;
+    padding: 9;
+    font-weight: bold;
+    text-align: center;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+
+input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.login-form input[type="text"],
+input[type="password"] {
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    outline: none;
+    height: 35px;
+    font-size: 18px;
+    color: white;
+}
+
+.login-form input[type="button"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background-color: #0000ff;
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.login-form input [type="button"]:hover {
+    background-color: #000;
+    color: white;
+    cursor: pointer;
+}
+
+.login-form a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.login-form img {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: -60px;
+    left: calc(50% - 50px);
+}
